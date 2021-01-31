@@ -1,0 +1,15 @@
+img {
+    height : 200px;
+    width : 200px;
+    border-radius : 50%;
+    border-style : ridge;
+    border-color : deeppink;
+    border-width : 3px;
+    padding : 4px;
+}
+
+html{
+    text-align : center;
+    background : linear-gradient ( ##92ecf4 0%,##f76ab2 100% );
+    background-repeat: no-repeat;
+}
