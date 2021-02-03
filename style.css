@@ -10,6 +10,55 @@ img {
 
 html{
     text-align : center;
-    background : linear-gradient ( ##92ecf4 0%,##f76ab2 100% );
-    background-repeat: no-repeat;
+    background-image: url(https://image.freepik.com/free-vector/acrylic-paint-pour-background-vector_53876-77805.jpg);
+}
+
+h1{
+    font-size : 50px;
+    text-shadow: 2px 2px deeppink;
+    font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Handlee', cursive;
+}
+
+#bio {
+    font-size : 25px;
+    color : crimson;
+    background-color: lightpink;
+    border-radius : 20px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.line {
+    width : 7px;
+background-color: chocolate;
+}
+
+.menu {
+    list-style : none;
+    font-family: 'Lemonada', cursive;
+    position : absolute;
+    top : 10px;
+    right : 30px;
+    float : right;
+    cursor : pointer;
+}
+
+.links {
+    float : right;
+    color : darkblue;
+    padding-top: 10px;
+    padding-bottom : 10px;
+    padding-left : 9px;
+    padding-right : 9px;
+ font-size : 20px;
+}
+
+.links:hover {
+background-color : palevioletred;
+    color : firebrick;
+    font-size : 22px;
 }
