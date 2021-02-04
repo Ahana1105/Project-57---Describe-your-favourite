@@ -46,6 +46,8 @@ background-color: chocolate;
     right : 30px;
     float : right;
     cursor : pointer;
+    Font-weight : bold;
+    Font-style : Italics;
 }
 
 .links {
@@ -71,4 +73,6 @@ h3 {
     text-shadow: 4px 4px crimson;
 }
 
-
+h4 {
+    font-size : 24px;
+}
