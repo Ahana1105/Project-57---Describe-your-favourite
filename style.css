@@ -1,4 +1,5 @@
 img {
+    margin-top : 80px;
     height : 200px;
     width : 200px;
     border-radius : 50%;
@@ -41,29 +42,24 @@ background-color: chocolate;
 .menu {
     list-style : none;
     font-family: 'Open Sans', sans-serif;
-    position : absolute;
-    top : 10px;
-    right : 30px;
-    float : right;
+    position : fixed;
+    top : 0px;
+    right : 160px;
+    float : left;
     cursor : pointer;
     Font-weight : bold;
     Font-style : Italics;
+    z-index : 10;
+    background: lightpink;
+    text-align : center;
+
 }
 
-.links {
-    float : right;
-    color : darkblue;
-    padding-top: 10px;
-    padding-bottom : 10px;
-    padding-left : 9px;
-    padding-right : 9px;
- font-size : 20px;
-}
 
 .links:hover {
 background-color : palevioletred;
     color : firebrick;
-    font-size : 22px;
+    font-size : 28px;
 }
 
 h3 {
@@ -75,4 +71,22 @@ h3 {
 
 h4 {
     font-size : 24px;
+}
+
+h5 {
+    font-size : 25px;
+    font-family : sans-serif;
+    color : crimson;
+}
+
+
+.links {
+    float : left;
+    color : darkblue;
+    padding-top: 9px;
+    padding-bottom : 10px;
+    padding-left : 33px;
+    padding-right : 35px;
+ font-size : 25px;
+    display : inline;
 }
